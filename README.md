@@ -1,4 +1,4 @@
-This is a css theme for the (expressa-admin)[https://npmjs.org/package/expressa-admin] database editor.
+This is a css theme for the [expressa-admin](https://npmjs.org/package/expressa-admin) database editor.
 
 ![](https://github.com/coderofsalvation/expressa-admin-theme-zen/raw/master/screenshot.png)
 
