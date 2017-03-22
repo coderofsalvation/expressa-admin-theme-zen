@@ -8,6 +8,7 @@ This is a css theme for the [expressa-admin](https://npmjs.org/package/expressa-
 * WYSIGYWIG html editor (sceditor) when using `format="html"`
 * language-file
 * page-specific css-rules in `css/style.css`
+* minimized padding for nested objects, to forms look more 'human'
 
 ## Usage 
 
