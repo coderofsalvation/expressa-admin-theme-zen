@@ -1,0 +1,294 @@
+/* bootstrap overrides 
+ *
+ */
+
+.btn-warning {
+    color: #555 !important;
+    background-color: #F7f7f7 !important;
+    border-color: #888 !important;
+}
+.btn-hover {
+    background-color: #F00 !important;
+}
+
+body,h1,h2,h3,h4,h5,span,p,div{
+  color:#777 !important;
+}
+
+.well h3,h4,h5,h6,
+input,select{
+  color:#000 !important;
+}
+
+input,select,textarea,
+input.form-control{
+  background-color: #f2f2f2 !important;
+  border:none !important;
+  border-radius: 0px !important;
+}
+
+textarea.form-control{
+  min-height:150px;
+}
+
+div {
+  max-width:100%;
+  min-width:0px;
+  transition:all 0.5s ease-in;
+}
+div#app > div > h2 {
+  background: url(/img/logo.svg) no-repeat 30px 15px;
+  background-size: 61px;
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #FFF;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  text-align:right;  
+  padding-top:15px;   
+  padding-right:15px;
+  font-size: 13px;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, .4);
+}
+ul.breadcrumbs {
+  padding-left: 0px;
+}
+div#app > div > div {
+  margin-top:80px;
+}
+div#app.edit {
+  margin: auto auto;
+  max-width:800px;
+}
+ul.breadcrumbs {
+  list-style-type: none;
+}
+.breadcrumbs li {
+  display: inline;
+  margin-right: 10px;
+}
+.breadcrumbs li:not(:first-child)::before {
+  content: '>';
+  padding-right: 10px;
+}
+.sceditor-container {
+  height: 210px !important;  
+  width:100% !important;
+}
+input[type=text] {
+    min-width: 200px !important;
+}
+input[type=number] {
+    max-width: 80px;
+    min-width: 20px;
+}
+select {
+  max-width: 33%;
+  min-width: 200px;
+}
+button {
+  margin-right: 15px;
+  margin-bottom: 14px !important;
+}
+
+.table-bordered, 
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border:none !important;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+#app > div > div > div > div > div.well.well-sm {
+  padding-top: 55px !important;
+}
+
+.help-block,
+p{
+  color:#539ad7 !important;
+  font-size:12px;
+}
+
+label {
+  padding-right: 15px;
+  min-width: 127px;
+  color: #555 !important;
+  font-size:14px;
+}
+.well {
+  box-shadow: 0 1px 7px rgba(0, 0, 0, .4) !important;
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, .4) !important; 
+  background: #fFF !important; 
+  /*
+  background: -webkit-linear-gradient(#f3f3f3,  white) !important;
+  background: -o-linear-gradient(#f3f3f3,  white) !important;
+  background: -moz-linear-gradient(#f3f3f3,  white) !important;
+  background: linear-gradient(#f3f3f3,  white) !important; 
+  */
+  border:none !important;
+  border-radius:0px !important;
+  padding-top: 40px !important;
+}
+.well .well {
+  background: transparent !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important; 
+}
+.well-sm {
+  padding:20px !important;
+  padding-left:0px !important;
+}
+button, 
+table {
+  border-radius: 5px !important;
+}
+
+div.well h3 .btn-group, 
+div.col-md-12 button.json-editor-btn-edit {
+  display:none;
+}
+
+div.col-md-12 div.col-md-12 {
+  padding-left:15px !important;
+}
+
+input[type=checkbox] {
+  transform: scale(1.8);
+  margin-top: 11px !important;
+  margin-left: 3px !important;
+  margin-bottom: 20px !important;
+  margin-right: 20px !important;
+}
+
+div.checkbox {
+  line-height: 34px !important;
+}
+
+div.form-group select {
+  margin-top: 0px !important;
+}
+
+.comment-link {
+  text-indent:30px;
+}
+
+h2 h3::before {
+    content: '☰ ';
+}
+
+h2 h3 h3::before {
+    content: '' !important;
+}
+
+.btn:hover {
+  border: 1px solid #555 !important;
+}
+.btn {
+  margin-right:15px;
+  color:#FFF !important;
+  background-color: #337ab7 !important;
+  border:none !important;
+  border-radius:7px !important;
+}
+
+.well .btn {
+  border: 1px solid #AAA !important;
+  color:#000 !important;
+  background-color:#FFF !important;
+}
+
+.radio label, .checkbox label {
+  padding-left:0px !important;
+}
+
+#app > div > div > div > div > h3 > div {
+  float:right;
+}
+
+#app > div > div > div > div > h3 > div > div{
+    position: fixed !important;
+    left: 20% !important;
+    top: 24% !important;
+}
+#app > div > div > div > div > h3,
+#app > div > div > div > div > h3 > span {
+  font-size: 49px;
+  color: #999 !important;
+  margin: 33px 0px;
+}
+
+table.table.table-bordered tbody tr {
+  border-radius:2px !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, .4);
+  /*border:1px solid #AAA !important;*/
+}
+table.table.table-bordered tbody tr td {
+  padding:40px;
+}
+
+/*
+ * set smaller input for specific fields
+ */
+input[name=root\[meta\]\[created\]],
+input[name=root\[meta\]\[updated\]],
+input[name=root\[meta\]\[owner\]] {
+  max-width: 100px !important;
+}
