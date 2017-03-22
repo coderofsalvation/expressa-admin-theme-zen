@@ -229,11 +229,12 @@ div.form-group select {
   text-indent:30px;
 }
 
-h2 h3::before {
+h3::before {
     content: '☰ ';
 }
 
-h2 h3 h3::before {
+h3 h3::before,
+div["data-schemaid"="root"] {
     content: '' !important;
 }
 
@@ -287,6 +288,8 @@ table.table.table-bordered tbody tr td {
 /*
  * set smaller input for specific fields
  */
+input[name=root\[email\]],
+input[name=root\[password\]],
 input[name=root\[meta\]\[created\]],
 input[name=root\[meta\]\[updated\]],
 input[name=root\[meta\]\[owner\]] {
