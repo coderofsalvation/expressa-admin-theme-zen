@@ -80,6 +80,9 @@ ul.breadcrumbs {
   height: 550px !important;  
   width:100% !important;
 }
+.sceditor-container iframe {
+  height:428px !important;
+}
 input[type=text] {
     min-width: 200px !important;
 }
