@@ -205,7 +205,7 @@ table {
 
 div.well h3 .btn-group, 
 div.col-md-12 button.json-editor-btn-edit {
-  display:none;
+  float:right;
 }
 
 div.col-md-12 div.col-md-12 {
