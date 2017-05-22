@@ -36,6 +36,11 @@ div {
   min-width:0px;
   transition:all 0.5s ease-in;
 }
+
+.container {
+  width:97.5% !important;
+}
+
 div#app > div > h2 {
   background: url(/img/logo.svg) no-repeat 30px 15px;
   background-size: 61px;
