@@ -113,6 +113,11 @@ button {
 .table-bordered > tfoot > tr > td {
   border:none !important;
 }
+
+table.table td {
+	white-space: nowrap;
+}
+
 .col-xs-1,
 .col-sm-1,
 .col-md-1,
