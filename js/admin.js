@@ -30,7 +30,7 @@ var supportDateTime = function(){
 					if(this.value !== stripedDateTime) {
 							this.value = stripedDateTime;
 							this.input.value = this.value;
-							this.refreshPreview();
+							//this.refreshPreview();
 							this.onChange();
 					}
 			},
