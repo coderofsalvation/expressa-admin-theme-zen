@@ -298,9 +298,6 @@ div["data-schemaid"="root"] {
   color: #333 !important;
   text-transform: capitalize;
 }
-#app > div > div > table.table-striped tr > td {
-  padding:2px 15px !important;
-}
 
 table.table.table-bordered tbody tr {
   border-radius:2px !important;
