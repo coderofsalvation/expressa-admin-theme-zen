@@ -34,7 +34,6 @@ textarea.form-control{
 div {
   max-width:100%;
   min-width:0px;
-  transition:all 0.5s ease-in;
 }
 
 .container {
@@ -116,6 +115,13 @@ button {
 
 table.table td {
 	white-space: nowrap;
+	max-width:400px;
+	overflow: hidden;
+  transition:all 0.5s ease-in;
+}
+
+table.table td:hover {
+	max-width:initial;
 }
 
 .col-xs-1,
@@ -292,8 +298,8 @@ div["data-schemaid"="root"] {
   color: #333 !important;
   text-transform: capitalize;
 }
-#app > div > div > table tr > td {
-  padding:15px !important;
+#app > div > div > table.table-striped tr > td {
+  padding:2px 15px !important;
 }
 
 table.table.table-bordered tbody tr {
