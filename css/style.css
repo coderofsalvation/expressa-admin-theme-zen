@@ -252,9 +252,15 @@ h3::before {
     content: '☰ ';
 }
 
-h3 h3::before,
-div["data-schemaid"="root"] {
+h3 > h3::before,
+div#app > div > div > div > div > h3::before{
     content: '' !important;
+}
+
+div#app > div > div > div > div > div.well > div{
+		max-width:1200px !important;
+		margin-left:auto;
+		margin-right:auto;
 }
 
 .btn:hover {
