@@ -252,10 +252,6 @@ div.form-group select {
   text-indent:30px;
 }
 
-h3::before {
-    content: '☰ ';
-}
-
 h3 > h3::before,
 div#app > div > div > div > div > h3::before{
     content: '' !important;
