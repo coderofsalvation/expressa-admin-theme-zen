@@ -2,6 +2,10 @@
  *
  */
 
+body{
+		background-color: #F6F6F6 !important;
+}
+
 .btn-warning {
     color: #555 !important;
     background-color: #F7f7f7 !important;
@@ -264,15 +268,24 @@ div#app > div > div > div > div > div.well > div{
 }
 
 .btn:hover {
-  border: 1px solid #555 !important;
+  background-color: #888 !important;
 }
+
+a {
+}
+
+
 .btn {
   margin-right:15px;
   color:#FFF !important;
-  background-color: #337ab7 !important;
+  background-color: #67dcf9 !important;
+	font-weight: 700 !important;
+  padding: 12px 10px !important;
   border:none !important;
   border-radius:7px !important;
 }
+
+.btn
 
 .well .btn {
   border: 1px solid #AAA !important;
@@ -291,7 +304,13 @@ div#app > div > div > div > div > div.well > div{
 #app > div > div > div > div > h3 > div > div{
     position: fixed !important;
     left: 20% !important;
+    right: 20% !important;
     top: 24% !important;
+    bottom: 24% !important;
+}
+#app > div > div > div > div > h3 > div > div textarea{ 
+	width: 100% !important;
+	height: 90% !important;
 }
 #app > div > div > div > div > h3,
 #app > div > div > div > div > h3 > span {
