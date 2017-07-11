@@ -26,7 +26,7 @@ input,select{
 
 input,select,textarea,
 input.form-control{
-  background-color: #f2f2f2 !important;
+  background-color: #f7f7f7 !important;
   border:none !important;
   border-radius: 0px !important;
 }
