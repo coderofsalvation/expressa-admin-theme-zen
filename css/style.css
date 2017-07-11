@@ -340,3 +340,7 @@ input[name=root\[meta\]\[updated\]],
 input[name=root\[meta\]\[owner\]] {
   max-width: 100px !important;
 }
+
+div.toast-message {
+		color:#FFF !important;
+}
